@@ -1,0 +1,49 @@
+/* ==========================================================================
+   TAMARIKI SCHOOL INCORPORATED — THEME
+   The ONLY file you need to edit to change the site's colours.
+   Every colour on the site is defined here and nothing is hard-coded
+   anywhere else.
+   ========================================================================== */
+:root {
+  /* brand teal — masthead title & tagline, section headings, buttons,
+     footer background, links accent */
+  --accent:       #0c9cbc;
+  --accent-dark:  #0987a4;   /* buttons on hover */
+
+  /* dark teal — the big page titles inside the light band (h1) */
+  --heading-dark: #04343f;
+
+  /* light blue band behind page titles */
+  --band-bg:      #b7dfe8;
+
+  /* footer */
+  --footer-bg:    #0c9cbc;
+  --footer-icon:  #04343f;   /* envelope + facebook icons */
+
+  /* page */
+  --bg:           #ffffff;
+  --text:         #000000;
+  --muted:        #757575;   /* active menu item, "Next" link, form labels */
+
+  /* navigation */
+  --nav-text:     #262626;
+  --nav-rule:     #262626;   /* thin line above the menu */
+
+  /* history timeline */
+  --accent-soft:  #70c0d2;   /* spine, dots, connectors */
+  --photo-ring:   #a3a3a3;   /* grey ring around the timeline photo circles */
+
+  /* forms */
+  --form-border:  #dcdcdc;
+
+  /* item cards */
+  --card-border:    #d9d9d9;
+  --card-image-bg:  #ffffff;
+
+  /* typography */
+  --font-body: Arial, Helvetica, sans-serif;
+  --font-nav:  Arial, Helvetica, sans-serif;  /* live site uses Questrial */
+
+  /* metrics */
+  --content-width: 950px;    /* the site's main content column */
+}
